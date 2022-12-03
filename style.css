@@ -1,0 +1,143 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+	background-color: #1f2937;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 50px;
+	margin-right: 100px;
+	margin: 0 200px 0 100px;
+}
+
+nav h1 {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	padding-left: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #e5e7eb;
+}
+
+nav svg {
+	color: #f9faf8;
+}
+
+.information {
+	background-color: #1f2937;
+}
+
+.information img {
+	height: 280px;
+	width: 450px;
+	border-radius: 8px;
+}
+
+.product {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 200px 0 100px;
+}
+
+.product h1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #f9faf8;
+}
+
+.product P {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.product #btn-1 {
+	background-color: #3882f6;
+	padding: 5px;
+	border-radius: 4px;
+	width: 100px;
+	color: #e5e7eb;
+	border: 1px thin;
+}
+
+.product-information {
+	position: relative;
+	bottom: 44px;
+}
+
+.best-collections img {
+	height: 200px;
+	width: 200px;
+}
+
+.best-collections ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+#Some-text {
+	text-align: center;
+}
+
+.some-information {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.testimonial {
+	background-color: hsl(223, 64%, 98%);
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 36px;
+	padding: 50px 100px 50px 100px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.testimonial h4 {
+	font-style: normal;
+	position: relative;
+	left: 440px;
+	margin-bottom: 20px;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-section {
+	margin: 50px 100px 50px 100px;
+	background-color: #3882f6;
+	border-radius: 8px;
+	color: #f9faf8;
+}
+
+.call-to-action {
+	margin-left: 30px;
+}
+
+#btn-2 {
+	margin: 3rem auto;
+	background-color: #3882f6;
+	padding: 5px;
+	border-radius: 4px;
+	width: 100px;
+	color: #e5e7eb;
+	border: 1px thin;
+}
